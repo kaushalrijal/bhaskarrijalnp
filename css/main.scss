@@ -1,0 +1,13 @@
+$backgroundColor: blue;
+$frontTextColor: rgb(221, 221, 221);
+
+body {
+    background-color: $backgroundColor;
+}
+
+.title {
+    color: $frontTextColor;
+    font-family: 'Archivo';
+    text-align: center;
+    font-size: larger;
+}
