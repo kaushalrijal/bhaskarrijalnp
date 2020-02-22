@@ -1,4 +1,4 @@
-$backgroundColor: blue;
+$backgroundColor: rgba(1, 1, 194, 0.582);
 $frontTextColor: rgb(221, 221, 221);
 
 body {
@@ -10,4 +10,8 @@ body {
     font-family: 'Archivo';
     text-align: center;
     font-size: larger;
+}
+
+@media only screen and (min-width: 1000px) {
+
 }
