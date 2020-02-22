@@ -18,17 +18,20 @@ body {
 }
 
 .mainMenu{
-    .mainlist{
-        list-style-type: none;
-        a{
-            text-decoration: none;
-        }
-    }
     background-color: rgba(255, 255, 255, 0.561);
     border-radius: 5px;
     margin: 10px;
     padding: 1px;
-    text-align: center;
+    .mainlist{
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        a{
+            text-decoration: none;
+            color: rgb(22, 22, 22);
+        }   
+    }
 }
 
 @media only screen and (min-width: 1000px) {
