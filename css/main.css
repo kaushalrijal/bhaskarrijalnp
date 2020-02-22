@@ -1,3 +1,8 @@
+* {
+  padding: 2px;
+  margin: 0px;
+}
+
 body {
   background-color: rgba(0, 3, 180, 0.534);
 }
@@ -7,5 +12,22 @@ body {
   font-family: 'Archivo';
   text-align: center;
   font-size: larger;
+  padding: 5px;
+}
+
+.mainMenu {
+  background-color: rgba(255, 255, 255, 0.561);
+  border-radius: 5px;
+  margin: 10px;
+  padding: 1px;
+  text-align: center;
+}
+
+.mainMenu .mainlist {
+  list-style-type: none;
+}
+
+.mainMenu .mainlist a {
+  text-decoration: none;
 }
 /*# sourceMappingURL=main.css.map */
