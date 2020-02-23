@@ -45,21 +45,13 @@ body {
   color: #161616;
 }
 
-.card {
-  background-color: rgba(255, 255, 255, 0.76);
-  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
+.soulBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.431);
   border-radius: 5px;
-}
-
-.card:hover {
-  -webkit-box-shadow: 0 8 px 16px 0 rgba(0, 0, 0, 0.2);
-          box-shadow: 0 8 px 16px 0 rgba(0, 0, 0, 0.2);
-}
-
-.container {
-  padding: 2px 16px;
+  height: 200px;
+  margin: 10px;
 }
 /*# sourceMappingURL=main.css.map */
