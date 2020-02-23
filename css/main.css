@@ -4,12 +4,15 @@
 }
 
 body {
-  background-color: rgba(0, 3, 180, 0.534);
+  background-image: url("/images/bgimg.png");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .title {
-  color: #dddddd;
-  font-family: 'Archivo';
+  color: #1b1b1b;
+  font-family: 'Raleway';
+  font-weight: 500;
   text-align: center;
   font-size: larger;
   padding: 5px;
@@ -39,5 +42,23 @@ body {
 .mainMenu .mainlist a {
   text-decoration: none;
   color: #161616;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.76);
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+.card:hover {
+  -webkit-box-shadow: 0 8 px 16px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 8 px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 2px 16px;
 }
 /*# sourceMappingURL=main.css.map */
